@@ -30,6 +30,6 @@ class Product extends Model
             return $this->attributes['image'];
         }
 
-        return \Storage::disk('admin')->url($this->attributes['image']);
+        return Storage::disk('admin')->url($this->attributes['image']);
     }
 }
