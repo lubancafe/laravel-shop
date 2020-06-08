@@ -28,7 +28,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a href="{{ route('user_addresses.index') }}" class="dropdown-item">addresses</a>
-                <a href="{{ route('products.favorites') }}" class="dropdown-item">my favorites/a>
+                <a href="{{ route('products.favorites') }}" class="dropdown-item">my favorites</a>
 
                 <a class="dropdown-item" id="logout" href="#"
                    onclick="event.preventDefault();document.getElementById('logout-form').submit();">Logout</a>
