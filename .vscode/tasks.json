@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "show-workspace",
+            "type": "shell",
+            "command": "echo ${workspaceFolder}",
+            "problemMatcher": []
+        }
+    ]
+}
