@@ -55,7 +55,7 @@
           <span>订单状态：</span>
           <div class="value">
             @if($order->paid_at)
-              @if($order->refund_status === \App\Models\Order::REFUND_STATUS_PENDING)
+              @if($order->refund_status === \App\Models\Order::REFUND_STATUS_PENDING || !$order->refund_status)
                 已支付
               @else
                 {{ \App\Models\Order::$refundStatusMap[$order->refund_status] }}
