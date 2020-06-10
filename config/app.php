@@ -232,4 +232,6 @@ return [
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
+    // config for laravel shop
+    'order_ttl' => 30,    
 ];

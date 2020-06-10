@@ -88118,7 +88118,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Tim\laravel\code\laravel-shop\resources\js\studio\app.js */"./resources/js/studio/app.js");
+module.exports = __webpack_require__(/*! C:\dev\laravel\sandbox\laravel-shop\resources\js\studio\app.js */"./resources/js/studio/app.js");
 
 
 /***/ })
