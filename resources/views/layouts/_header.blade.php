@@ -30,6 +30,8 @@
                 {{ Auth::user()->name }}
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a href="{{ route('orders.index') }}" class="dropdown-item">My orders</a>
                 <a href="{{ route('user_addresses.index') }}" class="dropdown-item">addresses</a>
                 <a href="{{ route('products.favorites') }}" class="dropdown-item">my favorites</a>
 
