@@ -98,7 +98,7 @@ class Order extends Model
                 return $no;
             }
         }
-        \Log::warning('find order no failed');
+        \Log::warning('find order # failed');
 
         return false;
     }
