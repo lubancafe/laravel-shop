@@ -233,5 +233,5 @@ return [
     ],
 
     // config for laravel shop
-    'order_ttl' => 30,    
+    'order_ttl' => 1800,    
 ];
